@@ -1,0 +1,190 @@
+/*======================================
+            Theme setup css
+========================================*/
+
+@charset "utf-8";
+@font-face { font-family: 'open_sansregular'; src: url('../fonts/OpenSans-Regular-webfont.eot'); src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Regular-webfont.woff') format('woff'), url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+body { font-family: 'open_sansregular'; background: #ECEFF1; }
+.shadow-box { background: #fff none repeat scroll 0 0; border: medium none; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); position: relative; }
+.btn { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+.btn.focus, .btn:focus, .btn:hover { box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+a { color: #2cc185; }
+a:hover { cursor: pointer; text-decoration: none; color: #2cc185; }
+.text-theme { color: #2cc185 !important; }
+.bg-theme { background: #2cc185 !important; }
+.padd_left15 { padding-left: 15px !important; }
+.padd_right15 { padding-right: 15px !important; }
+.no-padding { padding: 0px !important; }
+.btn-primary {color: #fff; background-color: #3A99D9 !important; border-color: #3A99D9 !important;}
+.btn-warning {
+    color: #fff;
+    background-color: #EA5460 !important;
+    border-color: #EA5460 !important;
+}
+.bold {font-weight: bold;}
+/*======================================
+          common
+========================================*/
+
+.no-radius { border-radius: 0px !important; }
+.no-border {border: none !important;}
+.left { float: left; }
+.right { float: right; }
+.no-padding { padding: 0px !important; }
+.no-margin { margin: 0px !important; }
+.block { display: block; }
+.inline-block { display: inline-block; }
+.w100 { width: 100%; }
+.mrt10 { margin-top: 10px; }
+.mrt20 { margin-top: 10px; }
+.mrb10 { margin-bottom: 10px; }
+/*======================================
+         All Page  list
+         01- Layout setup
+========================================*/
+/* Header */
+.main_header .navbar {
+    border-radius: 0px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+.main_header .nav > li > a { color:#fff; } 
+.main_header .navbar-brand {
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 20px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.main_header .nav > li > a:focus, .main_header .nav > li > a:hover, .main_header .nav > li > a:visited {
+    background-color: #31B37F;
+    color: #fff;
+    text-decoration: none;
+}
+.sidetoggle:hover { cursor: pointer; }
+/*End Header */
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+/*-----------------------------------  
+         01- Layout setup     
+ ----------------------------------*/
+.main-body {
+     width: 100%; margin-top:70px;
+}
+.main-body .panel-title {font-weight: bold;}
+.main-body .panel-default>.panel-heading {background-color: #fdfdfd;padding: 7px 10px;}
+.panel {
+    background-color: #fff;
+    border:1px solid #eee;
+    border-radius:4px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    margin-bottom:15px;
+}
+.ht_10 {height: 230px;overflow: auto;}
+.ht_fastab {height: 224px;overflow: auto;}
+.main-body [class*="col-"] {padding-left: 7px; padding-right:7px;}
+.panel_table {}
+.panel_table.table>tbody>tr>td, .panel_table.table>tbody>tr>th, .panel_table.table>tfoot>tr>td, .panel_table.table>tfoot>tr>th, .panel_table.table>thead>tr>td, .panel_table.table>thead>tr>th {
+    padding: 4px;
+}
+.main-body {margin-bottom: 10px;}
+.panel_table.table>thead>tr>th {color: #777;}
+.font13 {font-size: 13px;}
+.grey {color: #777;}
+.bg-up {background-color:#D4F5E3; color:#2BCD76 !important; }
+.up {color:#2BCD76 !important;}
+.down {color:#FF3D00 !important;}
+.bg-down {background-color:#FFD8CC; color:#FF3D00 !important; }
+.no-border.table>tbody>tr>td {border: none;}
+.buy_sell tbody tr td:nth-child(2) {color:#2BCD76 !important;}
+.buy_sell tbody tr td:nth-child(3) {color:#FF3D00 !important;}
+
+.btc_tabs .nav-pills>li>a {padding: 4px 8px;color: #000; border-radius: 0px; background-color:#eee;margin-right: 3px;border: 1px solid #eee;
+    font-size: 13px;}
+.btc_tabs {float: right;}
+.btc_tabs .nav-pills>li.active>a, .btc_tabs .nav-pills>li.active>a:focus, .btc_tabs .nav-pills>li.active>a:hover {
+    background-color: #dff0d8; color: #3c763d; border: 1px solid #3c763d;
+}
+.market_tabs .nav-tabs>li>a {font-weight: bold; color: #222;padding: 7px 10px;}
+.market_tabs .panel-body {background-color: #F7F7F7;}
+.market_tabs .nav-tabs>li.active>a, .market_tabs .nav-tabs>li.active>a:focus, .market_tabs  .nav-tabs>li.active>a:hover {background-color: #F7F7F7;}
+.market_tabs .tab-content {float: left; width:100%; padding: 10px;}
+.title_coin {font-size: 15px; font-weight: bold;}
+.border-right {border-right: 1px solid #ddd !important}
+.form_inline label {float: left; width:80px; font-weight: normal;}
+.form_inline .input_field {float: left; width: calc(100% - 80px);}
+.input_field {position: relative;}
+.form_inline .right_placeholder {
+    position: absolute;
+    right: 7px;
+    top: 6px;
+    font-size: 13px;
+    color: #999; text-transform: uppercase; z-index: 100; background: #fff;
+}
+.market_tabs .form-control {height: 30px;
+    padding: 4px 12px;}
+.form_section {padding-right: 20px !important;}
+.check_label {list-style: none; float: left; width: 100%;padding:0;}
+.check_label li {float: left; width: 25%; padding: 0px 3px;}
+.check_label li:last-child {padding: 0;}
+.check_label li a {display:block;padding: 4px; text-align: center; color: #555; width: 100%; background: #fff; border: 1px solid #ddd;}
+.coin_titlebar {margin-bottom: 10px !important;}
+.coin_titlebar .grey {margin-top: 5px;}
+.form_section .form-group, .form_section_right .form-group {
+    margin-bottom: 10px;
+}
+.mb-0 {margin-bottom: 0px !important; }
+.form_section_right {padding-left:20px !important; padding-right:15px !important;}
+.favs {
+    border: 1px solid #ddd;
+    background-color: #eee;
+    padding: 4px 5px;
+    font-size: 13px;
+}
+.serch_field {padding:6px 10px;}
+.serch_field .form-control {height: 27px; padding: 4px; font-size: 13px;}
+.serch_field .input-group-addon { padding: 5px 9px; font-size: 13px;}
+.star_label {width:23px;}
+.graphs_content {min-height: 230px;}
+.panel_table.table>tbody>tr>td, .panel_table.table>thead>tr>th {padding-left:17px !important;}
+.border-top {border:1px solid #ddd;}
+.order_book.panel_table.table>tbody>tr>td, .order_book.panel_table.table>thead>tr>th  {
+    padding-left: 24px !important;
+    border-right: 1px solid #ddd;
+} 
+.relative {position: relative;}
+.fee {position: absolute !important; right:15px; top:7px;}
+.fee .underline {text-decoration:line-through;}
+.fee span {padding: 0px 4px;}
+.tradhistory {min-height: 265px;}
+.order_book:last-child {margin-bottom:4px;}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {vertical-align: middle;}
+.pending_order .table>tbody>tr>td, .pending_order .table>thead>tr>th {padding-left:25px;}
+.toggls {width:36px; float: left; text-align: center;}
+.panel-title a {color:#000;}
+.pending_order .btn {
+    font-size: 13px;
+    padding: 2px 8px; 
+}
+
+
+

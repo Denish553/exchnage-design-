@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Crypto Currency</title>
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="main_header navbar-fixed-top">
+            <nav class="navbar bg-theme">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        <a class="navbar-brand" href="index.html"> Crypto Currency  </a>                        </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a> <i class="fa fa-bell"></i> </a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-user-circle-o"></i> Admin <span class="caret"></span></a>
+                                <ul class="dropdown-menu pull-right">
+                                    <li><a href="index.html"> Logout </a></li>
+                                    <li><a href="index.html"> Profile </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </header>
+
+        <!-- Start main content -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- body content -->
+                <div class="main-body">
+                    <div class="col-sm-3">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    Order Book
+                                </div>
+                            </div>
+                            <div class="panel-body no-padding font13">
+                                <table class="table order_book panel_table no-border">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:50%;">Volume</th>
+                                            <th>Buy price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>100000.000000123</td>
+                                            <td class="up">6,06,500.00</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>100000.000000123</td>
+                                            <td class="up">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>100000.000000123</td>
+                                            <td class="up">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="up">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="up">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="up">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="up">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="up">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="up">6,06,500.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table class="table panel_table order_book no-border">
+                                    <thead class="border-top">
+                                        <tr>
+                                            <th style="width:50%;">volume</th>
+                                            <th>Sell price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>0.065</td>
+                                            <td class="down">6,09,626.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.065</td>
+                                            <td class="down">6,09,626.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="down">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="down">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="down">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="down">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="down">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="down">6,06,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.0123</td>
+                                            <td class="down">6,06,500.00</td>
+                                        </tr>
+                                       
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title clearfix">
+                                    <div class="pull-left">BTC/INR</div>
+                                    <div class="pull-right"><span class="grey font13">Last Price</span> $ 6,00,345</div>
+                                </div>
+                            </div>
+                            <div class="panel-body graphs_content">
+                                <h1> placeholder for Graph </h1>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default market_tabs">
+                                <div class="panel-heading no-border no-padding ">
+                                        <ul class="nav nav-tabs relative">
+                                            <li class="active"><a data-toggle="tab" href="#Limit">Limit</a></li>
+                                            <li><a data-toggle="tab" href="#Market">Market</a></li>
+                                            <li><a data-toggle="tab" href="#StopLimit">Stop-Limit</a></li>
+                                            <li class="fee"> Fee : <span class="small underline grey"> 0.10% </span><span class="small"> 0.50% </span> </li>
+                                        </ul>
+                                </div>
+                                <div class="panel-body no-padding">
+                                        <div class="tab-content">
+                                            <div id="Limit" class="tab-pane fade in active">
+                                                <div class="col-sm-6 form_section border-right">
+                                                    <div class="form-group coin_titlebar clearfix">
+                                                        <div class="pull-left">
+                                                            <span class="title_coin">BUY ADA</span>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <p class="small grey">BTC - 0.00002133</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Price:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">BTC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Amount:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">APPC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-0 clearfix form_inline">
+                                                        <label></label>
+                                                        <div class="input_field">
+                                                            <ul class="check_label">
+                                                                <li><a>25%</a></li>
+                                                                <li><a>50%</a></li>
+                                                                <li><a>75%</a></li>
+                                                                <li><a>100%</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Total:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">BTC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <button class="btn btn-block bold btn-primary">Buy BTC</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 form_section_right">
+                                                    <div class="form-group coin_titlebar clearfix">
+                                                        <div class="pull-left">
+                                                            <span class="title_coin">BUY ADA</span>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <p class="small grey">BTC - 0.00002133</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Price:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">BTC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Amount:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">APPC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-0 clearfix form_inline">
+                                                        <label></label>
+                                                        <div class="input_field">
+                                                            <ul class="check_label">
+                                                                <li><a>25%</a></li>
+                                                                <li><a>50%</a></li>
+                                                                <li><a>75%</a></li>
+                                                                <li><a>100%</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Total:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">BTC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <button class="btn btn-block bold btn-warning">Sell BTC</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="Market" class="tab-pane fade">
+                                                <div class="col-sm-6 form_section border-right">
+                                                    <div class="form-group coin_titlebar clearfix">
+                                                        <div class="pull-left">
+                                                            <span class="title_coin">BUY ADA</span>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <p class="small grey">BTC - 0.00002133</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Price:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">BTC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Amount:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">APPC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-0 clearfix form_inline">
+                                                        <label></label>
+                                                        <div class="input_field">
+                                                            <ul class="check_label">
+                                                                <li><a>25%</a></li>
+                                                                <li><a>50%</a></li>
+                                                                <li><a>75%</a></li>
+                                                                <li><a>100%</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                   
+                                                    <div class="form-group">
+                                                        <button class="btn btn-block bold btn-primary">Buy BTC</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 form_section_right border-right">
+                                                    <div class="form-group coin_titlebar clearfix">
+                                                        <div class="pull-left">
+                                                            <span class="title_coin">Sell ADA</span>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <p class="small grey">BTC - 0.00002133</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Price:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">BTC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Amount:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">APPC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-0 clearfix form_inline">
+                                                        <label></label>
+                                                        <div class="input_field">
+                                                            <ul class="check_label">
+                                                                <li><a>25%</a></li>
+                                                                <li><a>50%</a></li>
+                                                                <li><a>75%</a></li>
+                                                                <li><a>100%</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                   
+                                                    <div class="form-group">
+                                                        <button class="btn btn-block bold btn-warning">Sell BTC</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="StopLimit" class="tab-pane fade">
+                                                <div class="col-sm-6 form_section border-right">
+                                                    <div class="form-group coin_titlebar clearfix">
+                                                        <div class="pull-left">
+                                                            <span class="title_coin">BUY ADA</span>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <p class="small grey">BTC - 0.00002133</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Stop:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">BTC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Limit:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">APPC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Amount:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">APPC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-0 clearfix form_inline">
+                                                        <label></label>
+                                                        <div class="input_field">
+                                                            <ul class="check_label">
+                                                                <li><a>25%</a></li>
+                                                                <li><a>50%</a></li>
+                                                                <li><a>75%</a></li>
+                                                                <li><a>100%</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Total:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">BTC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <button class="btn btn-block bold btn-primary">Buy BTC</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 form_section_right">
+                                                    <div class="form-group coin_titlebar clearfix">
+                                                        <div class="pull-left">
+                                                            <span class="title_coin">Sell ADA</span>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <p class="small grey">BTC - 0.00002133</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Stop:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">BTC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Limit:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">APPC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Amount:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">APPC</span>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="form-group mb-0 clearfix form_inline">
+                                                        <label></label>
+                                                        <div class="input_field">
+                                                            <ul class="check_label">
+                                                                <li><a>25%</a></li>
+                                                                <li><a>50%</a></li>
+                                                                <li><a>75%</a></li>
+                                                                <li><a>100%</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix form_inline">
+                                                        <label>Total:</label>
+                                                        <div class="input_field">
+                                                            <input type="number" class="form-control">
+                                                            <span class="right_placeholder">BTC</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <button class="btn btn-block bold btn-warning">Sell BTC</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                    </div>
+                    <div class="col-sm-3">
+
+                            <div class="panel panel-default">
+                                    <div class="panel-heading clearfix">
+                                        <div class="pull-left">
+                                            <button class="favs"><i class="glyphicon glyphicon-star"></i> Favourite</button>
+                                        </div>
+                                        <div class="btc_tabs">
+                                            <ul class="nav nav-pills">
+                                                <li class="active"><a data-toggle="pill" href="#Btc">BTC</a></li>
+                                                <li><a data-toggle="pill" href="#Eth">ETH</a></li>
+                                                <li><a data-toggle="pill" href="#Bnb">BNB</a></li>
+                                                <li><a data-toggle="pill" href="#Usdt">USDT</a></li>
+                                            </ul>
+                                       </div>
+                                    </div>
+                                    <div class="panel-body ht_fastab no-padding font13">
+                                        <div class="input-group serch_field">
+                                            <input type="text" class="form-control">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                                        </div>
+                                            <div class="tab-content">
+                                                    <!-- btc tab content -->
+                                                    <div id="Btc" class="tab-pane fade in active">
+                                                        <table class="table panel_table table-hover no-border">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th class="star_label"></th>
+                                                                        <th>Pair</th>
+                                                                        <th>Price</th>
+                                                                        <th>Change</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td><a class="glyphicon glyphicon-star-empty"></a></td>
+                                                                        <td>ADA/BTC</td>
+                                                                        <td>0.00002133</td>
+                                                                        <td class="down">-0.7%</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><a class="glyphicon glyphicon-star-empty"></a></td>
+                                                                        <td>ADA/BTC</td>
+                                                                        <td>0.00001233</td>
+                                                                        <td  class="up">0.11%</td>
+                                                                    </tr>
+                                                                    
+                                                                </tbody>
+                                                            </table>
+                                                    </div>
+                                                    <!-- ETC tab content -->
+                                                    <div id="Eth" class="tab-pane fade">
+                                                            <table class="table panel_table no-border">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Pair</th>
+                                                                            <th>Price</th>
+                                                                            <th>Change</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>BBC/ETH</td>
+                                                                            <td>0.00102133</td>
+                                                                            <td>0.11%</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>ADA/BTC</td>
+                                                                            <td>0.00001233</td>
+                                                                            <td>0.51%</td>
+                                                                        </tr>
+                                                                        
+                                                                    </tbody>
+                                                                </table>
+                                                    </div>
+                                                    <!-- Bnb tab content -->
+                                                    <div id="Bnb" class="tab-pane fade">
+                                                            <table class="table panel_table no-border">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Pair</th>
+                                                                            <th>Price</th>
+                                                                            <th>Change</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>JCS/BNB</td>
+                                                                            <td>0.00002112</td>
+                                                                            <td>0.13%</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>ADA/BTC</td>
+                                                                            <td>0.00001231</td>
+                                                                            <td>0.16%</td>
+                                                                        </tr>
+                                                                        
+                                                                    </tbody>
+                                                                </table>
+                                                    </div>
+                                                    <!-- USDT tab content -->
+                                                    <div id="Usdt" class="tab-pane fade">
+                                                            <table class="table panel_table no-border">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Pair</th>
+                                                                            <th>Price</th>
+                                                                            <th>Change</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>LTC/USDT</td>
+                                                                            <td>0.00002133</td>
+                                                                            <td>0.7%</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>ADA/USDT</td>
+                                                                            <td>0.00001233</td>
+                                                                            <td>0.11%</td>
+                                                                        </tr>
+                                                                        
+                                                                    </tbody>
+                                                                </table>
+                                                    </div>
+        
+    
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+
+                            <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            Trade History
+                                        </div>
+                                    </div>
+                                    <div class="panel-body tradhistory no-padding font13">
+                                        <table class="table panel_table no-border">
+                                            <thead>
+                                                <tr>
+                                                    <th>Price</th>
+                                                    <th>Volume</th>
+                                                    <th>Time</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="bg-down">
+                                                    <td>6,06,500.00</td>
+                                                    <td>0.0453</td>
+                                                    <td>21:23:32</td>
+                                                </tr>
+                                                <tr class="bg-up">
+                                                    <td>6,06,500.00</td>
+                                                    <td>0.0453</td>
+                                                    <td>21:23:32</td>
+                                                </tr>
+                                                <tr class="bg-up">
+                                                    <td>6,06,500.00</td>
+                                                    <td>0.0453</td>
+                                                    <td>21:23:32</td>
+                                                </tr>
+                                                <tr class="bg-up">
+                                                    <td>6,06,500.00</td>
+                                                    <td>0.0453</td>
+                                                    <td>21:23:32</td>
+                                                </tr>
+        
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                      <a data-toggle="collapse" data-target="#pendoreder">
+                                          <span class="toggls"><span class="glyphicon glyphicon-triangle-bottom"></span></span>  My Pending Orders
+                                    </a> 
+                                    </div>
+                                </div>
+                                <div id="pendoreder" class="panel-body no-padding collapse in">
+                                <div class="table table-responsive pending_order">
+                                        <table class="table table-condensed">
+                                            <thead>
+                                                <tr>
+                                                    <th>Type</th>
+                                                    <th>Price</th>
+                                                    <th>Amount</th>
+                                                    <th>Total</th>
+                                                    <th>Date/Time</th>
+                                                    <th style="width:110px;">Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Buy</td>
+                                                    <td>0.464646</td>
+                                                    <td>123.464646</td>
+                                                    <td>0.464646</td>
+                                                    <td>2018-1-15 08:20:12</td>
+                                                    <td><button class="btn btn-danger">Close</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Buy</td>
+                                                    <td>0.464646</td>
+                                                    <td>123.464646</td>
+                                                    <td>0.464646</td>
+                                                    <td>2018-1-15 08:20:12</td>
+                                                    <td><button class="btn btn-danger">Close</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Buy</td>
+                                                    <td>0.464646</td>
+                                                    <td>123.464646</td>
+                                                    <td>0.464646</td>
+                                                    <td>2018-1-15 08:20:12</td>
+                                                    <td><button class="btn btn-danger">Close</button></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+        
+                    </div>
+                    <div class="col-sm-12">
+                            <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                          <a data-toggle="collapse" data-target="#pendoreder1">
+                                              <span class="toggls"><span class="glyphicon glyphicon-triangle-bottom"></span></span> 
+                                               BTC/INR Transaction History
+                                        </a> 
+                                        </div>
+                                    </div>
+                                    <div id="pendoreder1" class="panel-body no-padding collapse in">
+                                    <div class="table table-responsive pending_order">
+                                            <table class="table table-condensed">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Type</th>
+                                                        <th>Price</th>
+                                                        <th>Amount</th>
+                                                        <th>Total</th>
+                                                        <th style="width:200px;">Date/Time</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Buy</td>
+                                                        <td>0.464646</td>
+                                                        <td>123.464646</td>
+                                                        <td>0.464646</td>
+                                                        <td>2018-1-15 08:20:12</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Buy</td>
+                                                        <td>0.464646</td>
+                                                        <td>123.464646</td>
+                                                        <td>0.464646</td>
+                                                        <td>2018-1-15 08:20:12</td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Buy</td>
+                                                        <td>0.464646</td>
+                                                        <td>123.464646</td>
+                                                        <td>0.464646</td>
+                                                        <td>2018-1-15 08:20:12</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                        </div>
+                        <div class="col-sm-12">
+                                <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <div class="panel-title">
+                                              <a data-toggle="collapse" data-target="#pendoreder1">
+                                                  <span class="toggls"><span class="glyphicon glyphicon-triangle-bottom"></span></span> 
+                                                   BTC/INR Cancel Transaction History
+                                            </a> 
+                                            </div>
+                                        </div>
+                                        <div id="pendoreder1" class="panel-body no-padding collapse in">
+                                        <div class="table table-responsive pending_order">
+                                                <table class="table table-condensed">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Type</th>
+                                                            <th>Price</th>
+                                                            <th>Amount</th>
+                                                            <th>Total</th>
+                                                            <th style="width:200px;">Date/Time</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Buy</td>
+                                                            <td>0.464646</td>
+                                                            <td>123.464646</td>
+                                                            <td>0.464646</td>
+                                                            <td>2018-1-15 08:20:12</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Buy</td>
+                                                            <td>0.464646</td>
+                                                            <td>123.464646</td>
+                                                            <td>0.464646</td>
+                                                            <td>2018-1-15 08:20:12</td>
+                                                            
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Buy</td>
+                                                            <td>0.464646</td>
+                                                            <td>123.464646</td>
+                                                            <td>0.464646</td>
+                                                            <td>2018-1-15 08:20:12</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                            </div>
+                        
+                </div>
+            </div>
+        
+            <!-- end main content -->
+        </div>
+
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
